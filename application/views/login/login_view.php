@@ -10,7 +10,7 @@
       <div class="row column box-login">
         <div class="row column log-in-form">
           <h3 class="text-center" style="font-weight:bold;">time<strong>Sheet</strong></h3>
-          <h6 class="text-center">Log in with you email account</h6>
+          <h6 class="text-center">Log in with your email account</h6>
           <label>Email
             <input type="text" name="emailLogin" placeholder="somebody@example.com" required>
             <span class="form-error">
