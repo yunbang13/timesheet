@@ -15,6 +15,7 @@
 						<th>Level</th>
 						<th>Class Name</th>
 						<th>Student</th>
+						<th>Action</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -23,7 +24,8 @@
 							<td><?php echo $bil;?></td>
 							<td><?php echo $cls->desc_level;?></td>
 							<td><?php echo $cls->desc_class;?></td>
-							<td><a href="<?php echo base_url();?>teacher/view_attendance/<?php echo $cls->level;?>/<?php echo $cls->class;?>"><?php echo $jumlah_murid->jumlah_murid($cls->level,$cls->class);?></a></td>
+							<td><?php echo $jumlah_murid->jumlah_murid($cls->level,$cls->class);?></td>
+							<td><a href="<?php echo base_url();?>teacher/view_attendance/<?php echo $cls->level;?>/<?php echo $cls->class;?>">View Attendance</a></td>
 						</tr>
 					<?php endforeach;?>
 				</tbody>
