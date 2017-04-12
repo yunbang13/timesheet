@@ -1,0 +1,43 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+
+.vertical > li > a:hover, .vertical > a:active{
+	color: #fff;
+	font-weight:bold;
+}
+
+
+/*.menu-text > li > a {
+	color:#fff;
+}
+*/
+.menu-text {
+	/*color: rgba();*/
+	opacity:0.7;
+}
+
+.calendar_attendance {
+    font-family:Arial;
+    font-size:14px;
+}
+
+table .calendar_attendance {
+    border:1px solid #ccc;
+}
+
+.calendar_attendance .days td {
+    width : 80px;
+    height: 80px;
+    padding: 4px;
+    /*border: 1px solid #eee;*/
+    vertical-align:top;
+    background-color: :#00f;
+}
+
+
+.calendar_attendance .highlight {
+    font-weight:bold;
+    color:#DC143C;
+}
