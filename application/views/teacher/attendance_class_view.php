@@ -28,7 +28,9 @@
 							<td valign="middle">
 								<select name="slxAttend[]" id="">
 									<option value="1">Attend</option>
-									<option value="2">Not Attend</option>
+									<option value="2">Absent</option>
+									<option value="3">Reason</option>
+									<option value="4">Unknown</option>
 								</select>
 								<input type="hidden" name="hdnStudID[]" value="<?php echo $senarai->studID;?>">
 							</td>
