@@ -5,7 +5,7 @@
 </style>
 <div class="row wrapper align-center">
   <div class="medium-4 medium-centered small-4 small-centered large-4 large-centered columns ">
-
+    // Login page
     <form action="<?php echo base_url();?>login/verify" method="POST" data-abide novalidate>
       <div class="row column box-login">
         <div class="row column log-in-form">
