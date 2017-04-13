@@ -25,7 +25,7 @@
 							<td><?php echo $cls->desc_level;?></td>
 							<td><?php echo $cls->desc_class;?></td>
 							<td><?php echo $jumlah_murid->jumlah_murid($cls->level,$cls->class);?></td>
-							<td><a href="<?php echo base_url();?>teacher/view_attendance/<?php echo $cls->level;?>/<?php echo $cls->class;?>">View Attendance</a></td>
+							<td><a href="<?php echo base_url();?>teacher/view_attendance/<?php echo $cls->level;?>/<?php echo $cls->class;?>"> Attendance</a></td>
 						</tr>
 					<?php endforeach;?>
 				</tbody>
